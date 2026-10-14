@@ -1,0 +1,35 @@
+.widget {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #f0fdfa;
+  text-decoration: none;
+  padding: 0.35rem 0.7rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  transition: background 0.2s;
+  font-weight: 600;
+}
+
+.widget:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.badge {
+  background: #fbbf24;
+  color: #134e4a;
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.35rem;
+}

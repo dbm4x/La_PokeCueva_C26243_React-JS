@@ -1,0 +1,29 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.titulo {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.75rem;
+  color: #0f172a;
+  margin-bottom: 0.35rem;
+}
+
+.subtitulo {
+  color: #64748b;
+  margin-bottom: 1.75rem;
+  font-size: 0.95rem;
+}
+
+.estado {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+.error {
+  color: #b91c1c;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cámara Instantánea",
+    "precio": 85000,
+    "stock": 22,
+    "descripcion": "Capturá momentos al instante con impresión inmediata. Ideal para eventos y regalos.",
+    "categoria": "Fotografía",
+    "imagen": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&h=600&fit=crop"
+  },
+  {
+    "id": 2,
+    "nombre": "Cámara Nikon",
+    "precio": 97500,
+    "stock": 8,
+    "descripcion": "Réflex digital con excelente calidad de imagen y enfoque rápido para aficionados y profesionales.",
+    "categoria": "Fotografía",
+    "imagen": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop"
+  },
+  {
+    "id": 3,
+    "nombre": "Monitor Curvo",
+    "precio": 110000,
+    "stock": 12,
+    "descripcion": "Pantalla curva Full HD de 27\" con alta tasa de refresco para trabajo y gaming.",
+    "categoria": "Monitores",
+    "imagen": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&h=600&fit=crop"
+  },
+  {
+    "id": 4,
+    "nombre": "Notebook Pro",
+    "precio": 450000,
+    "stock": 15,
+    "descripcion": "Ultrabook liviana con procesador de alto rendimiento, 16GB RAM y SSD de 512GB.",
+    "categoria": "Computación",
+    "imagen": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=600&fit=crop"
+  },
+  {
+    "id": 5,
+    "nombre": "Teclado Mecánico",
+    "precio": 45000,
+    "stock": 50,
+    "descripcion": "Switches táctiles, retroiluminación RGB y construcción durable para largas sesiones.",
+    "categoria": "Periféricos",
+    "imagen": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600&h=600&fit=crop"
+  },
+  {
+    "id": 6,
+    "nombre": "Auriculares Wireless",
+    "precio": 62000,
+    "stock": 30,
+    "descripcion": "Cancelación de ruido activa, autonomía de 30 horas y micrófono integrado.",
+    "categoria": "Audio",
+    "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop"
+  }
+]
