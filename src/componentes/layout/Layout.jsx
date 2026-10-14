@@ -4,9 +4,9 @@ import Footer from './Footer';
 
 function Layout() {
   return (
-    <div className="app-shell">
+    <div>
       <Header />
-      <main className="main-content">
+      <main>
         <Outlet />
       </main>
       <Footer />
