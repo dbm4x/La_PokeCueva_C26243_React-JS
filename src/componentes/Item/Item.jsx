@@ -1,25 +1,18 @@
 import { Link } from 'react-router-dom';
 import styles from './Item.module.css';
 
-export function Item({ id, nombre, precio, stock, imagen, categoria }) {
-  const precioFormateado = precio.toLocaleString('es-AR');
-
+export function Item({ id, nombre, precio, stock, imagen }) {
   return (
-    <article className={styles.card}>
-      <Link to={`/producto/${id}`} className={styles.link}>
-        <div className={styles.imageWrap}>
-          <img className={styles.image} src={imagen} alt={nombre} />
-        </div>
-        <div className={styles.body}>
-          {categoria && <span className={styles.categoria}>{categoria}</span>}
-          <h3 className={styles.nombre}>{nombre}</h3>
-          <p className={styles.precio}>${precioFormateado}</p>
-          <p className={styles.stock}>Stock: {stock}</p>
-        </div>
+    <div className={styles.tarjeta}>
+      <Link to={`/producto/${id}`}>
+        <img src={imagen} alt={nombre} width="150" height="150" />
+        <h3>{nombre}</h3>
+        <p>Precio: ${precio}</p>
+        <p>Stock disponible: {stock}</p>
       </Link>
-      <Link to={`/producto/${id}`} className={styles.cta}>
+      <Link to={`/producto/${id}`} className={styles.boton}>
         Ver detalle
       </Link>
-    </article>
+    </div>
   );
 }
